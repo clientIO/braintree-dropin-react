@@ -148,6 +148,7 @@ var BraintreeDropIn = function (_React$Component) {
           _react2.default.createElement(
             'button',
             {
+              className: 'btn waves-effect waves-light',
               onClick: _this.handleSubmit,
               disabled: _this.state.isSubmitButtonDisabled
             },
